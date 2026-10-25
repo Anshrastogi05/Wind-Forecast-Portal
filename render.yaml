@@ -1,0 +1,33 @@
+services:
+  # ─── Backend API ───────────────────────────────────────────────────────────
+  - type: web
+    name: wind-forecast-portal
+    runtime: python
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install -e "."
+    startCommand: uvicorn windportal.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATA_DIR
+        value: data
+      - key: LOG_LEVEL
+        value: info
+      - key: CORS_ORIGINS
+        value: "*"
+    healthCheckPath: /api/ready
+
+  # ─── Frontend Static Site ───────────────────────────────────────────────────
+  - type: web
+    name: wind-forecast-portal-ui
+    runtime: static
+    region: singapore
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://wind-forecast-portal.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
