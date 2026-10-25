@@ -6,9 +6,13 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Tests: Pytest](https://img.shields.io/badge/tests-20%20passed-success?logo=pytest&logoColor=white)](https://pytest.org/)
+[![Backend: Render](https://img.shields.io/badge/Render-Live%20Backend-46E3B7?logo=render&logoColor=white)](https://wind-forecast-portal.onrender.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Day-ahead decision support & quantitative forecast risk analytics for GB energy utilities**, leveraging national wind generation data from Elexon BMRS (`FUELHH` actuals and `WINDFOR` published forecast vens).
+> **Day-ahead decision support & quantitative forecast risk analytics for GB energy utilities**, leveraging national wind generation data from Elexon BMRS (`FUELHH` actuals and `WINDFOR` published forecast vintages).
+> 
+> 🌐 **Live Backend API**: [https://wind-forecast-portal.onrender.com](https://wind-forecast-portal.onrender.com)  
+> 📖 **Interactive Swagger Docs**: [https://wind-forecast-portal.onrender.com/api/docs](https://wind-forecast-portal.onrender.com/api/docs)
 
 ---
 
