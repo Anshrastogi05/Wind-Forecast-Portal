@@ -1,0 +1,6 @@
+# Quick start: single container on http://localhost:8000
+services:
+  app:
+    build: .
+    ports: ["8000:8000"]
+    restart: unless-stopped

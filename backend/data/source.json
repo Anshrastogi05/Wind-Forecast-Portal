@@ -1,0 +1,10 @@
+{
+  "source": "elexon",
+  "datasets": [
+    "FUELHH (fuelType=WIND)",
+    "WINDFOR"
+  ],
+  "generated_at": "2026-10-25T06:54:33Z",
+  "actual_rows": 1584,
+  "forecast_rows": 13022
+}

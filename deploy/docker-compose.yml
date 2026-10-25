@@ -1,0 +1,23 @@
+# Two-service production layout: nginx (static UI + /api reverse proxy) -> FastAPI
+services:
+  api:
+    build: ../backend
+    restart: unless-stopped
+    environment:
+      DATA_DIR: /srv/data
+      LOG_LEVEL: INFO
+    volumes:
+      - ../backend/data:/srv/data:ro
+    expose: ["8000"]
+  web:
+    build: ../frontend
+    restart: unless-stopped
+    depends_on: [api]
+    ports: ["8080:80"]
+  ingest:           # docker compose -f deploy/docker-compose.yml --profile tools run --rm ingest
+    build: ../backend
+    profiles: ["tools"]
+    command: ["windportal", "ingest", "--out", "/srv/data"]
+    user: root
+    volumes:
+      - ../backend/data:/srv/data
