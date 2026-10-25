@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import sys
-import windportal
+import windportal as windportal
 
 for name, mod in list(sys.modules.items()):
     if name.startswith("windportal"):
