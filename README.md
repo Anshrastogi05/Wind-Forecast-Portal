@@ -8,13 +8,17 @@
 [![Tests: Pytest](https://img.shields.io/badge/tests-20%20passed-success?logo=pytest&logoColor=white)](https://pytest.org/)
 [![Frontend: Vercel](https://img.shields.io/badge/Vercel-Live%20Site-000000?logo=vercel&logoColor=white)](https://wind-forecast-portal-gtn5.vercel.app/)
 [![Backend: Render](https://img.shields.io/badge/Render-Live%20Backend-46E3B7?logo=render&logoColor=white)](https://wind-forecast-portal.onrender.com)
+[![YouTube Part 1](https://img.shields.io/badge/YouTube-Part%201%20Demo-FF0000?logo=youtube&logoColor=white)](https://youtu.be/rOGXkQ1nPDQ)
+[![YouTube Part 2](https://img.shields.io/badge/YouTube-Part%202%20Demo-FF0000?logo=youtube&logoColor=white)](https://youtu.be/uQSFcGHt998)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Day-ahead decision support & quantitative forecast risk analytics for GB energy utilities**, leveraging national wind generation data from Elexon BMRS (`FUELHH` actuals and `WINDFOR` published forecast vintages).
 > 
 > 🌍 **Live Frontend**: [https://wind-forecast-portal-gtn5.vercel.app](https://wind-forecast-portal-gtn5.vercel.app/)  
 > 🌐 **Live Backend API**: [https://wind-forecast-portal.onrender.com](https://wind-forecast-portal.onrender.com)  
-> 📖 **Interactive Swagger Docs**: [https://wind-forecast-portal.onrender.com/api/docs](https://wind-forecast-portal.onrender.com/api/docs)
+> 📖 **Interactive Swagger Docs**: [https://wind-forecast-portal.onrender.com/api/docs](https://wind-forecast-portal.onrender.com/api/docs)  
+> 🎬 **Video Demo Part 1**: [https://youtu.be/rOGXkQ1nPDQ](https://youtu.be/rOGXkQ1nPDQ)  
+> 🎬 **Video Demo Part 2**: [https://youtu.be/uQSFcGHt998](https://youtu.be/uQSFcGHt998)
 
 ---
 
